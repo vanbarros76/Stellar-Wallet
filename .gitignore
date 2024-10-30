@@ -1,0 +1,9 @@
+# Arquivos de ambiente
+.env
+*.env
+.env.*
+!.env.example
+
+# Outros arquivos comuns para ignorar
+node_modules/
+.DS_Store

@@ -1,0 +1,11 @@
+{
+  "name": "desafio-30k",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "stellar-sdk": "^12.3.0",
+    "stellar-hd-wallet": "^0.0.10"
+  }
+}
+

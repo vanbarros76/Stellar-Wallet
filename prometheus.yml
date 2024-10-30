@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 15s  # Intervalo de scraping padrão
+
+scrape_configs:
+  - job_name: 'app'
+    static_configs:
+      - targets: ['app:3000']  # Alvo de monitoramento do Prometheus
